@@ -18,5 +18,12 @@ def stdev(numbers):
 def percentile(numbers, perc):
     numbers = np.array(numbers)
     return np.percentile(numbers, perc*100)
-list1 = [1,2,3,4]
-print(percentile(list1, 0.5))
+# list1 = [1,2,3,4]
+# print(percentile(list1, 0.5))
+
+#### QUESTION 4
+def sorting(numbers):
+    numbers = np.array(numbers)
+    return np.sort(numbers)
+list1 = [10,3,7,2,4,1,20,2]
+print(sorting(list1))
