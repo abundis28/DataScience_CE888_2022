@@ -57,3 +57,11 @@ def action_2():
 
 # np.random.seed(4)
 # print('%d, %d, %d, %d, %d, %d' % (action_0(), action_1(), action_2(), action_0(), action_1(), action_2()))
+
+#### QUESTION 8
+def policy():
+    ''' This should return 0 with probability 40%; 1 with probability 10%; or 2 with probability 50%'''
+    return np.random.choice(a=[0,1,2,],p=[0.4,0.1,0.5])
+
+# np.random.seed(4)
+# print('%d, %d, %d, %d, %d, %d' % (policy(), policy(), policy(), policy(), policy(), policy()))
