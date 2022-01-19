@@ -32,6 +32,11 @@ def sorting(numbers):
 def mean_of_array_rows(numbers):
     numbers = np.array(numbers)
     return np.mean(numbers,axis=1)
+# list1 = [[1,3,5],[2,4,6],[11,13,9]]
+# print(mean_of_array_rows(list1))
 
-list1 = [[1,3,5],[2,4,6],[11,13,9]]
-print(mean_of_array_rows(list1))
+#### QUESTION 6
+def percentile_array_columns(myArray, perc):
+    return np.percentile(myArray, perc, axis=0)
+# list1 = np.asarray([55, 88, 78, 90, 79, 94]).reshape(2, -1)
+# print(percentile_array_columns(list1, 60))
