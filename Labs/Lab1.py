@@ -25,5 +25,13 @@ def percentile(numbers, perc):
 def sorting(numbers):
     numbers = np.array(numbers)
     return np.sort(numbers)
-list1 = [10,3,7,2,4,1,20,2]
-print(sorting(list1))
+# list1 = [10,3,7,2,4,1,20,2]
+# print(sorting(list1))
+
+#### QUESTION 5
+def mean_of_array_rows(numbers):
+    numbers = np.array(numbers)
+    return np.mean(numbers,axis=1)
+
+list1 = [[1,3,5],[2,4,6],[11,13,9]]
+print(mean_of_array_rows(list1))
