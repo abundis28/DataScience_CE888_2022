@@ -40,3 +40,20 @@ def percentile_array_columns(myArray, perc):
     return np.percentile(myArray, perc, axis=0)
 # list1 = np.asarray([55, 88, 78, 90, 79, 94]).reshape(2, -1)
 # print(percentile_array_columns(list1, 60))
+
+#### QUESTION 7
+# Define our actions
+def action_0():
+    ''' This should return 1 with probability 50%, and 0 with probability 50%'''
+    return np.random.choice(a=[1,0],p=[0.5, 0.5])
+
+def action_1():
+    ''' This should return 1 with probability 60%, and 0 with probability 40%'''
+    return np.random.choice(a=[1,0],p=[0.6, 0.4])
+
+def action_2():
+    ''' This should return 1 with probability 20%, and 0 with probability 80%'''
+    return np.random.choice(a=[1,0],p=[0.2,0.8])
+
+# np.random.seed(4)
+# print('%d, %d, %d, %d, %d, %d' % (action_0(), action_1(), action_2(), action_0(), action_1(), action_2()))
