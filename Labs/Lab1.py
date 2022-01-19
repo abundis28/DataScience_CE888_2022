@@ -13,3 +13,10 @@ def stdev(numbers):
     return numbers.std()
 # list1 = [1,2,3,4]
 # print(stdev(list1))
+
+#### QUESTION 3
+def percentile(numbers, perc):
+    numbers = np.array(numbers)
+    return np.percentile(numbers, perc*100)
+list1 = [1,2,3,4]
+print(percentile(list1, 0.5))
