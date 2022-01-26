@@ -33,4 +33,4 @@ print(num_values_OH)
 print(bootstrap_mean_ci(np.array(dem_share_PA), num_values_PA, 20000, 95))
 print(bootstrap_mean_ci(np.array(dem_share_OH), num_values_OH, 20000, 95))
 
-print(permut_test(np.array(dem_share_PA), np.array(dem_share_OH), 10000))
+print(permut_test(np.array(dem_share_OH), np.array(dem_share_PA), 10000))
