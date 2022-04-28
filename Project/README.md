@@ -12,3 +12,4 @@ Please click on the link above and the button to initiate the download of the zi
 
 ### Instructions to run/use code:
 Paste the copied filepath in the first parameter of the open() function that is also inside of the read_json() function in the second python code cell. You are set and can run the whole notebook!
+
